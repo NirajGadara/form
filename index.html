@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="add_button">
+        <button id="add" onclick="openForm()"> ADD STUDENT </button>
+    </div>
+
+    <div id="myForm">
+        <form action="" onsubmit="return form()">
+            <div class="box">
+            <table>
+                <tr>
+                    <td>FIRST NAME : </td> <td> <input type="text" id="firstname" name="firstname"></td>
+                </tr>
+                <tr>
+                    <td>LAST NAME : </td> <td> <input type="text" id="lastname" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td>PHONR NUMBER : </td> <td> <input type="tel" id="num" name="num" maxlength="10" ></td>
+                </tr>
+                <tr>
+                    <td>EMAIL : </td> <td> <input type="email" id="email" name="email" ></td>
+                </tr>
+                <tr>
+                    <td>BIRTHDATE : </td> <td> <input type="date" id="birthdate" name="birthdate" ></td>
+                </tr>
+                <tr>
+                    <td>APPOINTMENT TIME : </td> <td> <input type="time" id="app_time" name="app_time" ></td>
+                </tr>
+                <tr>
+                    <td>FAVORITE COLOR : </td> 
+                    <td><select id="favcolor" name="favcolor">
+                        <option value="black">black</option>
+                        <option value="white">white</option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <td>PYEMENT METHOD : </td>
+                </tr>
+                <tr>
+                    <td>CASH : <input type="radio" id="cash" name="pyement" value="cash"></td>
+                    <td>CARD : <input type="radio" id="card" name="pyement" value="card"></td>
+                    <td>UPI : <input type="radio" id="upi" name="pyement" value="upi"></td>
+                </tr>
+                <tr>
+                    <td>AGE : </td> <td> <input type="range" id="age" name="age" ></td>
+                </tr>
+                <tr>    
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td><input type="file" id="file" name="file"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" id="submit" onclick="myForm()"></td>
+                </tr>
+    
+            </table>
+        </div>
+    
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
