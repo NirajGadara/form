@@ -1,0 +1,96 @@
+/* index html file css start */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#add{
+    display: inline-block;
+    color: aqua;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00000000;
+    border: none;
+    overflow: hidden;
+    transition: 1s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    display: flex;
+}
+#add:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px aqua,
+                0 0 25px aqua,
+                0 0 50px aqua,
+                0 0 100px aqua;
+}
+
+/* index html file css end */
+
+/* form css file start */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30,#243b55);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.box{
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+td{
+    padding: 10px;
+    text-shadow: 0 0 5px white;
+}
+input{
+    background-color: #141e30;
+    color: antiquewhite;
+    border: none;
+    font-size: 20px;
+}
+
+#submit{
+    display: inline-block;
+    color: aqua;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00000000;
+    border: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+#submit:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px aqua,
+                0 0 25px aqua,
+                0 0 25px aqua,
+                0 0 50px aqua;
+}
+
+/* form css file end */
